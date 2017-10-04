@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<!-- Desciption: COS10020 Assignment1 - Enhancements-->
+<!-- Author: Lucas Moore -->
+<!-- Date: 13/07/17 -->
+<!-- Validated: 28/07/17 - 2 Errors -->
+
+<head> <!-- Meta Info -->
+<title>Enhancements</title>
+<meta charset="utf-8" />
+<meta name="description" content="COS10020 Assignment1 - Enhancements" />
+<meta name="keywords" content="HTML, Assignment1, Enhancements, Audio, Music, Responsive" />
+<meta name="author" content="Lucas Moore" />
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<div id="side_bar"> <!-- Side Bar -->
+	<div id="logo">
+		<a href="index.html"><IMG SRC="images/Logo2.jpg" alt="LM Logo">
+		</a>
+	</div>
+
+	<div id="nav"> <!-- Navigation Links -->
+		<ul> 
+			<li><a href="underconst.htm">Personal Information</a></li>
+			<li><a href="underconst.htm">Professional Information</a></li>
+			<li><a href="underconst.htm">Interests</a>
+			<ul>
+			    <li><a href="travel.html">Travel</a></li>
+			    <li><a href="music.html">Music</a></li>
+			    <li><a href="game.html">Video Games</a></li>
+			</ul>
+			</li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</div>
+</div>
+
+<body>
+<div id="wrap">
+	<h1>Enhancements</h1>
+	<hr/>
+
+	<h3>Enhancement 1 - Audio Player</h3>
+	<p>
+		I have used the inbuilt HTML Audio Player to allow users to listen to the tracks detailed on the music page. <br>
+		The <b>controls</b> attribute adds audio controls, like play, pause, and volume. <br>
+		The <b>source</b> element sets the location and the type of sudio file to be played. <br>
+		One file had to be converted to .mp3 before it could be used as .wma file type is not supported. This is purely for showcase purposes, if this website was to be published the fileswould have to be removed or risk copy-right infringement.
+	</p>
+	<p> 
+		The Audio Player is used <a href="music.html">here</a>
+		<br>	
+		The imformation about this function came from W3 Schools <a href="https://www.w3schools.com/html/html5_audio.asp">here</a>
+	</p>
+
+	<h3>Enhancement 2 - Responsiveness</h3>
+	<p>
+		All pages on this website are responsive ie. the elements change size relative to the size of the screen they are being viewed on. 
+		<br>
+		This has been done by using relative values for much of the layout eg. 50% page width <a href="index.html">here</a>
+	</p>
+	<p>
+		There are limits to this function though. On the <a href="index.html">index page</a> the width cannot go below a certain width before the nav-bar starts to become hidden. The height of the page also cannot 50% without the nav bar disappearing out of view.
+		<br>
+		The other pages are more responsive. Most of the content move with the page width, the exception being the photos on the <a href="travel.html">travel page</a> which have fixed dimensions.
+		<br>
+		The website is not fully responsive/fluid as the side navigation bar has a fixed position and dimensions that do not change.
+	</p>
+</div>
+</body>
+
+<footer> <!-- Footer -->
+	<span id="footer_txt"> Copyright&copy; 2017 LM </span>
+</footer>
+
+</html>

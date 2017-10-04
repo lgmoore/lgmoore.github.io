@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Desciption: COS10020 Assignment1 - Contact -->
+<!-- Author: Lucas Moore -->
+<!-- Date: 05/07/17 -->
+<!-- Validated: 28/07/17 - 3 Errors -->
+
+<head> <!-- Meta Info -->
+	<title>Contact Me</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="COS10020 Assignment1 - Contact" />
+	<meta name="keywords" content="HTML, Assignment1, Contact, Form" />
+	<meta name="author" content="Lucas Moore" />
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<div id="side_bar"> <!-- Side Bar -->
+	<div id="logo">
+	<a href="index.html"><IMG SRC="images/Logo2.jpg" alt="LM Logo" style="width: 180px; height: 180px;">
+	</a>
+</div>
+
+<div id="nav"> <!-- Navigation Links -->
+		<ul>
+		<li><a href="underconst.htm">Personal Information</a></li>
+		<li><a href="underconst.htm">Professional Information</a></li>
+		<li><a href="underconst.htm">Interests</a>
+		<ul>
+		    <li><a href="travel.html">Travel</a></li>
+		    <li><a href="music.html">Music</a></li>
+		    <li><a href="game.html">Video Games</a></li>
+		</ul>
+		</li>
+	<li><a href="contact.html">Contact Me</a></li>
+	</ul>
+	</div>
+</div>
+
+<body>
+	<div id="wrap">
+
+	<h1>Contact Me</h1> <!-- Page Heading -->
+
+	<fieldset> <!-- Form Fieldset -->
+	<form method="post" action="http://mercury.ict.swin.edu.au/it000000/formtest.php">
+		<p>
+		<label for="name">Name</label> 
+			<input type="text" name= "name" id="name" required="required" placeholder="Your name" />
+		<label for="phone">Phone</label> 
+			<input type="text" name= "phone" id="phone" placeholder="Your phone number" />    
+	    <label for="email">Email</label> 
+	        <input type="email" name= "email" id="email" required="required" placeholder="Your email" />
+		</p>
+
+	    <legend>Area of Comment</legend>
+	   	<p>	
+		<label>
+		    <input type="checkbox" name="subject" id="sub1" value="Politics" />Politics
+		</label>
+		<label>
+		    <input type="checkbox" name="subject" id="sub2" value="Gaming" />Gaming
+		</label>
+		<label>
+			<input type="checkbox" name="subject" id="sub3" value="Music" />Music
+			</label>
+		<label>
+			<input type="checkbox" name="subject" id="sub4" value="Travel" />Travel
+		</label>			
+		<label>
+			<input type="checkbox" name="subject" id="sub5" value="Work" />Work
+		</label>
+		<label>
+			<input type="checkbox" name="subject" id="sub6" value="Other" />Other
+		</label>		
+		</p>
+
+	    <p>
+	    <label>Comment
+	        <br>
+	        <textarea rows="5" cols="100" name="comment" maxlength="600" placeholder="Your message"></textarea>
+	    </label>
+	    </p>
+
+	    <div id="submit">
+		<input type="submit" value="Submit" />
+		</div>
+	</form>
+	</fieldset>
+	</div>
+</body>
+
+<footer> <!-- Footer -->
+	<span id="footer_txt"> Copyright&copy; 2017 LM </span>
+</footer>
+
+</html>

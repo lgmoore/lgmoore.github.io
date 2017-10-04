@@ -1,0 +1,261 @@
+/*
+<!-- Desciption: COS10020 Assignment1 - Page Style Sheet -->
+<!-- Author: Lucas Moore -->
+<!-- Date: 11/07/17 -->
+<!-- Validated: 27/07/17 - CLEAR No Errors -->
+*/
+
+/* Fonts */
+    @font-face{
+        font-family: "hightower";
+        src: url("../fonts/HTOWERT.TTF");
+    }
+
+    @font-face{
+        font-family: "georgia";
+        src: url("../fonts/georgia.TTF");
+    }
+
+/* Navigation Side Bar */
+    #side_bar{
+        float: left;
+        margin: 0;
+        padding: 0;
+        background-color: #B9AA81;
+        height: 100%;
+        position: fixed; 
+        z-index: 50;
+    }
+
+    #logo{
+    	padding: 0px;
+    	margin: 0px;
+    }
+
+    #logo IMG{
+        width:180px;
+        height:180px;
+    }
+
+    #nav li a{
+    	display: block;
+    	color: #000;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 0px;
+        text-decoration: none;
+        width: 170px;
+    }
+
+    #nav ul{
+    	list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 180px;
+        background-color: #B9AA81;
+    }
+
+    #nav li a:hover {
+        background-color: #11151E;
+        color: #B9AA81;
+        width: 170px;
+    }
+
+    .active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    /*Dropdown Section*/
+        #nav li ul 	{
+        		display: none; /* Hides the drop-down menu */									
+        		margin: 0; 
+        		padding: 0; 
+                margin-left:180px;
+                float:left;
+                margin-top: -68px;
+                height: 0;
+        		}				
+
+        #nav li:hover ul 	{
+                display: block; /* Displays the drop-down box when the menu item is hovered over */
+                z-index: 12;
+                padding-left: 1px;
+                            }
+
+        #nav li ul li {
+            background-color: #B9AA81;
+        }
+
+        #nav li ul li a 	{
+        		border-left: 1px solid #11151E;
+        		border-right: 1px solid #11151E;
+        		border-top: 1px solid #11151E;
+                z-index: 100;
+        		}
+
+        #nav li ul li a:last-child{
+            border-bottom: 1px solid #11151E;
+        }
+
+        #nav li ul li a:hover {
+            background-color: #11151E;
+            z-index: 100;
+        }
+/* Whole Page Properties */
+    body{
+        background: #8B8F7A;
+        margin: 0;
+        padding: 0;
+        font-family: "georgia";
+    }
+
+/* Sets Page Margins */
+    #wrap{
+        margin-left: 200px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+    }
+
+/* Headings */
+    h1{
+    	text-align: center;
+        margin-top: 0;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        color: #11151E;
+    }
+
+    h2{
+    	text-align: center;
+    	padding-top: 5px;
+        padding-bottom: 5px;
+        color: #11151E;
+    }
+
+    h3{
+    	text-align: center;
+    	padding-top: 5px;
+        padding-bottom: 5px;
+        color: #11151E;
+    }
+
+/* Line Break */
+    hr{
+        height: 2px;
+        color: #212426;
+        background-color: #212426;
+        border: none;
+    }
+
+/* List Section */
+    #link_list li{
+    	padding-right: 50px;
+    	margin: 25px 0;
+    	text-align: center;
+    }
+
+    #link_list ul{
+    	list-style-position: inside;
+    }
+
+/*Links */ 
+    a{
+        color: #690C08;
+        text-decoration: none;
+    }           
+
+/* Table Section */
+    table{
+        background-color: #B9AA81;
+        border-collapse: collapse;
+        font-family: "hightower";
+    }
+
+    table, th, td{
+        border: 1px solid black;
+    }
+
+    th, td{
+        padding: 5px;
+    }
+
+    legend{
+        padding-top: 5px;
+        margin: 0 auto;
+    }
+
+    label{
+        padding: 3px;
+    }
+
+    #submit{
+        text-align: center;
+    }
+
+/* Text Paragraph Properties */
+    p{
+    	text-align: center;
+        position: relative;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 1000px;
+        max-width: 100%;
+        min-width: 90%;
+        z-index: -5;
+    }
+
+/* Image Properties - Not Needed Because of Hardcoding */
+    .img_h IMG{
+    	width: 480px;
+    	height: 360px;
+    	display: block;
+        margin: 0 auto;
+    }
+
+    .img_v IMG{
+        width: 360px;
+        height: 480px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+/* Comment Section */
+    fieldset{
+        background-color: #B9AA81;
+        border: solid 1px #11151E;
+        min-width: 90%;
+        max-width: 100%;
+    }
+
+    fieldset p{
+        z-index: 5;
+    }
+
+    input, textarea{
+        background-color: #E2E8C6;
+    }
+
+    textarea{
+        min-width: 90%;
+        max-width: 100%;
+    }
+
+/* Footer Section */ 
+    footer{
+    	float: left;
+        height: 30px;
+        width: 180px;
+        z-index: 60;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #212426;
+        padding-top: 15px;
+    }
+
+    #footer_txt{
+        color: #727564;
+        padding: 10px;
+    }
