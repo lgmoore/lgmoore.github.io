@@ -17,16 +17,16 @@
 		z-index	: 2;					/* place window on top */
 		position : fixed;			/* place window on a fixed location  */
 
-		top	: 45%;				/* place the top left corner of the window at  */
+		top	: 40%;				/* place the top left corner of the window at  */
 	  	left : 47%;				/* the centre of the screen */
 	  	margin-top	: -5em;				/* adjust the windows by movin it up */ 
 	  	margin-left	: -11em;      /* then moving it to the left to the centre of the window */
 		
-		background-color: #F2F2F2;
+		background-color: #9C8F6C;
 		border-radius : 5px;				/* create a rounded corner */
 		border: solid;
 		border-width: 0.5px;
-		border-color: #8C2E36;
+		border-color: #11151E;
 		padding	: 5px;				/* add a 5px spacing around the text */
 		padding-left: 10px;
 		padding-right: 10px;
