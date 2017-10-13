@@ -18,7 +18,7 @@ function show_window () {
 	scrnOverlay = document.getElementById("scrnOverlay");
 
 /* Events */
-  discBtn.onclick = showdiscWin;
+  highwayBtn.onclick = showdiscWin;
   discWinClose.onclick = hidediscWin;
 }
 /* On-Load */
