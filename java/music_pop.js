@@ -12,7 +12,7 @@ function hidediscWin () {
 function show_window () {
 	console.log("inti2");
 	/* Links */
-	discBtn = document.getElementById("discBtn");
+	highwayBtn = document.getElementById("highway61_btn");
 	discWinClose = document.getElementById("discWinClose");
 	discWin = document.getElementById("discWin");
 	scrnOverlay = document.getElementById("scrnOverlay");
