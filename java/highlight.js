@@ -19,25 +19,25 @@ function init2 () {
 	var contact = document.getElementById("contact_link");
 
 	if (bodyId == "pers") {
-		pers.style.background = "#B42929";
+		pers.style.background = "#727564";
 	}
 	if (bodyId == "prof") {
-		prof.style.background = "#B42929";
+		prof.style.background = "#727564";
 	}
 	if (bodyId == "interests") {
-		interests.style.background = "#B42929";
+		interests.style.background = "#727564";
 	}
 	if (bodyId == "travel") {
-		travel.style.background = "#B42929";
+		travel.style.background = "#727564";
 	}		
 	if (bodyId == "music") {
-		music.style.background = "#B42929";
+		music.style.background = "#727564";
 	}
 	if (bodyId == "game") {
-		game.style.background = "#B42929";
+		game.style.background = "#727564";
 	}
 	if (bodyId == "contact") {
-		contact.style.background = "#B42929";
+		contact.style.background = "#727564";
 	}
 	console.log("Highlights working");
 }
