@@ -13,8 +13,10 @@
   <meta name="author" content="Lucas Moore" />
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <script type="text/javascript" src="java/highlight.js" language="javascript"></script>  
+  <script type="text/javascript" src="java/music_pop.js" language="javascript"></script> 
 </head>
 
+<div id="scrnOverlay"></div>
 <div id="side_bar"> <!-- Side Bar -->
   <div id="logo">
     <a href="index.html"><IMG SRC="images/Logo2.jpg" alt="LM Logo" style="width: 180px; height: 180px;">
@@ -55,7 +57,7 @@
     <tr>
       <td>Like a Rolling Stone</td>
       <td>Bob Dylan</td> 
-      <td>Highway 61 Revisited</td>
+      <td id="highway61">Highway 61 Revisited</td>
       <td>1967</td>
       <td><audio controls>
           <source src="music_files/rolling_stone.mp3" type="audio/mpeg">
@@ -99,6 +101,10 @@
     </tr>  
   </table>
 
+  <div id="discWin" class="window">
+    <a href="index.html"><IMG SRC="images/highway61.jpg" alt="Highway 61 Revisted Album Cover" style="width: 300px; height: 300px;">
+    <span id="discWinClose" class="button">Close</span>
+  </div>
 </div>
 </body>
 

@@ -4,7 +4,7 @@
 <!-- Date: 13/10/17 -->
 */
 
-function init2 () {
+function highlight () {
 	console.log("inti2");
 
 // Menu Highlight Enhancement Section
@@ -42,4 +42,4 @@ function init2 () {
 	console.log("Highlights working");
 }
 /* On-Load */
-window.addEventListener("load", init2, false);
+window.addEventListener("load", highlight, false);
