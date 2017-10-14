@@ -10,7 +10,7 @@ function hidediscWin () {
 
 /* Main Function */
 function show_window () {
-	console.log("inti2");
+	console.log("window loaded");
 	/* Links */
 	highwayBtn = document.getElementById("highway61_btn");
 	discWinClose = document.getElementById("discWinClose");
