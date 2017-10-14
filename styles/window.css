@@ -5,7 +5,7 @@
 		border-radius    :6px;
 		background-color :lightgrey;
 		padding          :0.25em; /* Creates spacing around the text */
-		margin-top: 5em;
+		margin-top: 20px;
 		cursor: pointer;
 	}
 	#discWinClose:hover {
@@ -22,8 +22,8 @@
 		z-index	: 2;					/* place window on top */
 		position : fixed;			/* place window on a fixed location  */
 
-		top	: 40%;				/* place the top left corner of the window at  */
-	  	left : 47%;				/* the centre of the screen */
+		top	: 35%;				/* place the top left corner of the window at  */
+	  	left : 55%;				/* the centre of the screen */
 	  	margin-top	: -5em;				/* adjust the windows by movin it up */ 
 	  	margin-left	: -11em;      /* then moving it to the left to the centre of the window */
 		

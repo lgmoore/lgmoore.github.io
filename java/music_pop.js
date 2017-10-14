@@ -8,6 +8,19 @@ function hidediscWin () {
 	scrnOverlay.style.visibility = "hidden";
 }
 
+/* Get id of clicked */
+function reply_click(clicked_id)
+{
+	var img = document.createElement("img");
+
+    if (clicked_id == "highway61_btn") {
+    		img.src = "images/highway61.jpg";
+    }
+
+	var src = document.getElementById("add_img");
+	src.appendChild(img);
+}
+
 /* Main Function */
 function show_window () {
 	console.log("window loaded");
@@ -18,7 +31,7 @@ function show_window () {
 	scrnOverlay = document.getElementById("scrnOverlay");
 
 /* Events */
-  highwayBtn.onclick = showdiscWin;
+  highwayBtn.onclick = reply_click(this.id)
   discWinClose.onclick = hidediscWin;
 }
 /* On-Load */
