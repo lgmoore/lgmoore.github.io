@@ -163,8 +163,18 @@
 /*Links */ 
     a{
         color: #690C08;
-        text-decoration: none;
+        cursor: pointer;
+        z-index: 20;
     }           
+
+    .button{
+        border           :1px solid black;
+        border-radius    :6px;
+        background-color :lightgrey;
+        padding          :0.5em; /* Creates spacing around the text */
+        margin-top: 20px;
+        cursor: pointer;
+    }
 
 /* Table Section */
     table{
@@ -198,7 +208,6 @@
 /* Text Paragraph Properties */
     p{
     	text-align: center;
-        position: relative;
     	margin-left: auto;
     	margin-right: auto;
     	width: 1000px;
