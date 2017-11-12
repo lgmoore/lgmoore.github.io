@@ -13,7 +13,9 @@
 	}
 
 	.album{
-		cursor: pointer;
+        color: #690C08;
+        cursor: pointer;
+        text-decoration: underline;
 	}
 
 	/* Using CSS to style a window */
