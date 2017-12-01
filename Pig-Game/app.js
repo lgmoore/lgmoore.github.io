@@ -52,7 +52,7 @@ function nextPlayer(){
     document.querySelector('.player-1-panel').classList.toggle('active');
         
     // clear dice
-    diceDOM.style.display = 'none';
+    //diceDOM.style.display = 'none';
 };
 
 document.querySelector('.btn-hold').addEventListener('click', function(){
